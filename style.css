@@ -419,7 +419,13 @@ section{
   }
   .home-content{
     align-items: center;
-    text-align: center;
+    text-align: center;   
+  }
+  .home-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
   }
   .home-img img{
     width: 56vw;
@@ -431,6 +437,7 @@ section{
   .about h2{
     text-align: center;
     margin: 2rem 0;
+    font-size: 5rem;
   }
   .about img{
     width: 52vw;
