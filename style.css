@@ -33,6 +33,9 @@ body{
   align-items: center;
   z-index: 1000;
 }
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #menu-icon{
   font-size: 3.5rem;
   color: var(--main-color);
@@ -118,7 +121,7 @@ section{
   font-size: 4rem;
 }
 .home-content p{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.8;
 }
@@ -207,7 +210,7 @@ section{
   text-align: left;
 }
 .about-content p{
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 .about-content .btn{
   margin: 3rem 0;
