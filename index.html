@@ -128,35 +128,40 @@
 
 
         <div class="project-card">
-          <img src="project1.png" alt="">
+            <img src="avalo2.png" alt="">
 
-          <h3>project 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit ratione cum molestias facilis hic nisi neque consequuntur, sapiente, distinctio, eveniet suscipit. Facilis inventore eum nihil ullam magnam, saepe excepturi?</p>
-          <div class="btn">Review Project</div>
+            <h3>Avalo Interior</h3>
+            <p>The Avalo Interior Website is a full-stack project developed using HTML, CSS, JavaScript, and Django. It features a modern, responsive design to showcase interior design services and portfolios. An integrated admin dashboard allows easy content management, including updating services and project details. The project highlights my ability to combine clean front-end design with robust back-end functionality.</p>
+
+            <a href="https://avalointerior.netlify.app/" target="_blank" class="btn">Review Project</a>
+        </div>
+
+
+        <div class="project-card">
+            <img src="birhan.png" alt="">
+
+            <h3>Birhan technologies</h3>
+            <p>The Birhan Technologies Website was developed to provide an online presence for a technology solutions company. It was built with a focus on responsive design and user-friendly navigation, using modern web technologies. The site highlights key services, portfolio work, and contact options to support client engagement. This project strengthened my skills in creating professional, business-oriented web applications.</p>
+
+            <a href="https://birhantechnologies.netlify.app/" target="_blank" class="btn">Review Project</a>
         </div>
 
         <div class="project-card">
-          <img src="project2.png" alt="">
+            <img src="digo.png" alt="">
 
-          <h3>project 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit ratione cum molestias facilis hic nisi neque consequuntur, sapiente, distinctio, eveniet suscipit. Facilis inventore eum nihil ullam magnam, saepe excepturi?</p>
-          <div class="btn">Review Project</div>
+            <h3>Digo Hiking</h3>
+            <p>The Digo Hiking Website is a full-stack application designed for a hiking and tour company. It includes features such as trip listings, booking management, and an admin panel for easy content updates. Built with PHP, MySQL, HTML, CSS, and JavaScript, the site ensures both functionality and a smooth user experience. This project enhanced my skills in database integration and building service-oriented platforms.</p>
+
+            <a href="https://github.com/Zel-alem" target="_blank" class="btn">Review Project</a>
         </div>
 
         <div class="project-card">
-          <img src="project3.png" alt="">
+            <img src="tic.png" alt="">
 
-          <h3>project 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit ratione cum molestias facilis hic nisi neque consequuntur, sapiente, distinctio, eveniet suscipit. Facilis inventore eum nihil ullam magnam, saepe excepturi?</p>
-          <div class="btn">Review Project</div>
-        </div>
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>The Tic-Tac-Toe Game is a web-based interactive application that supports both multiplayer mode and computer AI mode. Developed using HTML, CSS, and JavaScript, it features a clean and responsive interface for smooth gameplay. The AI logic allows users to compete against the computer with real-time move validation. This project helped me strengthen my skills in game logic, event handling, and front-end interactivity.</p>
 
-        <div class="project-card">
-          <img src="project4.png" alt="">
-
-          <h3>project 4</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit ratione cum molestias facilis hic nisi neque consequuntur, sapiente, distinctio, eveniet suscipit. Facilis inventore eum nihil ullam magnam, saepe excepturi?</p>
-          <div class="btn">Review Project</div>
+            <a href="https://github.com/Zel-alem" target="_blank" class="btn">Review Project</a>
         </div>
 
         <div class="project-card">
@@ -179,29 +184,26 @@
     </section>
 
     <section class="contact" id="contact">
-
-       <h2 class="heading">Contact<span>Me</span></h2>
-
-       <form action="#">
-
-        <div class="input-group">
-          <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="contact.php" method="POST">  
+          <div class="input-group">
+              <div class="input-box">
+                  <input type="text" name="name" placeholder="Full Name" required>
+                  <input type="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="input-box">
+                  <input type="number" name="phone" placeholder="Phone Number" required>
+                  <input type="text" name="subject" placeholder="Subject" required>
+              </div>
           </div>
-          <div class="input-box">
-            <input type="numner" placeholder="Phone Number">
-            <input type="text" placeholder="Subject">
+  
+          <div class="input-group2">
+              <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+              <input type="submit" value="Send Message" class="btn">
           </div>
-        </div>
-
-        <div class="input-group2">
-          <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
-          <input type="submit" value="Send Message" class="btn">
-        </div>
-       </form>
-
-    </section>
+      </form>
+  </section>
+  
 
     <footer class="footer">
       <div class="social-icons">
